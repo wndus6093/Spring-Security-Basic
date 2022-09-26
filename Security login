@@ -1,0 +1,12 @@
+Authentication 내부 UserDtails의 객체에 대해 알아감.
+
+- Security Session 
+  - Authenticaion 
+    - UserDatails(UserDetailsService)
+
+형식으로 정해져 있는 규칙으로 작성됨
+유저의 권한을 리턴을 할 수 있고, 로그인 시 유저의 정보를 담을 수 있음.
+ - 계정의 비밀번호, 권한 목록을 리턴 / 계정의 잠김, 만료 여부 리턴 / 계정 활성화 여부 리턴
+ 
+ 
+ 
